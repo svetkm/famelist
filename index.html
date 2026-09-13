@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>disprozia fame</title>
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+    <header>
+        <div class="header-left">
+            <button class="icon-btn" onclick="tM()"><svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none"><path d="M3 12h18M3 6h18M3 18h18"></path></svg></button>
+            <span class="logo-text" id="logo-trigger">disprozia fame</span>
+        </div>
+        <div class="header-right">
+            <a href="https://t.me/+R9dxlw6Qcj9hNzZi" class="icon-btn" target="_blank"><svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2" fill="none"><path d="M22 2L11 13M22 2L15 22 11 13 2 9 22 2z"/></svg></a>
+            <a href="https://t.me/+iFXXyFo8pSJhZGJh" class="icon-btn" target="_blank"><svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2" fill="none"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></a>
+            <button class="icon-btn" onclick="oM('faq-modal')"><svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 17h-2v-2h2v2zm2.07-7.75l-.9.92C13.45 12.9 13 13.5 13 15h-2v-.5c0-1.1.45-2.1 1.17-2.83l1.24-1.26c.37-.36.59-.86.59-1.41 0-1.1-.9-2-2-2s-2 .9-2 2H8c0-2.21 1.79-4 4-4s4 1.79 4 4c0 .88-.36 1.68-.93 2.25z"/></svg></button>
+            <button class="icon-btn" onclick="oM('settings-modal')"><svg viewBox="0 0 24 24" width="22" height="22" stroke="currentColor" stroke-width="2" fill="none"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path></svg></button>
+        </div>
+    </header>
+
+    <div class="overlay" id="overlay" onclick="tM()"></div>
+    <div class="sidebar" id="sidebar">
+        <div class="sidebar-header"><span class="logo-text">Меню</span><button class="icon-btn" onclick="tM()"><svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg></button></div>
+        <a href="#" onclick="tM()"><svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2" fill="none"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg> Главная</a>
+        <a href="https://t.me/+R9dxlw6Qcj9hNzZi" target="_blank"><svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2" fill="none"><path d="M22 2L11 13M22 2L15 22 11 13 2 9 22 2z"/></svg> ТГК</a>
+        <a href="https://t.me/+iFXXyFo8pSJhZGJh" target="_blank"><svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2" fill="none"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg> Наш чат</a>
+        <a href="#" onclick="tM(); oM('faq-modal')"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 17h-2v-2h2v2zm2.07-7.75l-.9.92C13.45 12.9 13 13.5 13 15h-2v-.5c0-1.1.45-2.1 1.17-2.83l1.24-1.26c.37-.36.59-.86.59-1.41 0-1.1-.9-2-2-2s-2 .9-2 2H8c0-2.21 1.79-4 4-4s4 1.79 4 4c0 .88-.36 1.68-.93 2.25z"/></svg> FAQ</a>
+        <a href="https://t.me/vkwebint" target="_blank"><svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2" fill="none"><path d="M16 21v-2a4 4 0 0 0-4-4H5c-1.1 0-2 .9-2 2v2"></path><circle cx="8.5" cy="7" r="4"></circle><line x1="20" y1="8" x2="20" y2="14"></line><line x1="23" y1="11" x2="17" y2="11"></line></svg> Попасть в лист</a>
+        <a href="#" onclick="tM(); oM('settings-modal')"><svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2" fill="none"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path></svg> Настройки</a>
+    </div>
+
+    <div class="controls-container">
+        <div class="search-box"><svg viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" stroke-width="2" fill="none"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg><input type="text" id="searchInput" placeholder="Поиск по имени, описанию..." oninput="hS()"></div>
+        <div class="filters">
+            <button class="filter-btn active" onclick="sF('Все', this)">Все</button>
+            <button class="filter-btn" onclick="sF('Владелец', this)">Владелец</button>
+            <button class="filter-btn" onclick="sF('Модераторы', this)">Модераторы</button>
+            <button class="filter-btn" onclick="sF('Медийки', this)">Медийки</button>
+            <button class="filter-btn" onclick="sF('Высокий фейм', this)">Высокий фейм</button>
+            <button class="filter-btn" onclick="sF('Средний фейм', this)">Средний фейм</button>
+            <button class="filter-btn" onclick="sF('Малый фейм', this)">Малый фейм</button>
+            <button class="filter-btn" onclick="sF('Осинтеры', this)">Осинтеры</button>
+            <button class="filter-btn" onclick="sF('Сватеры', this)">Сватеры</button>
+            <button class="filter-btn" onclick="sF('Кодеры', this)">Кодеры</button>
+            <button class="filter-btn" onclick="sF('Скам', this)">Скам</button>
+        </div>
+    </div>
+
+    <div class="container" id="cards-container"></div>
+
+    <div class="modal" id="faq-modal">
+        <div class="modal-content" style="max-width:380px;">
+            <div class="modal-header" style="border-bottom:none;margin-bottom:5px;"><h3 style="opacity:0;">FAQ</h3><button class="icon-btn close-modal" onclick="cM('faq-modal')"><svg viewBox="0 0 24 24" width="22" height="22" stroke="currentColor" stroke-width="2" fill="none"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg></button></div>
+            <div class="faq-modal-inner">
+                <div class="faq-title">FAQ</div><div class="faq-subtitle">По всем вопросам обращайтесь:</div>
+                <div class="faq-contact-wrap"><a href="https://t.me/vkwebint" class="faq-tg-btn" target="_blank"><svg viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" stroke-width="2" fill="none"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg> @vkwebint</a></div>
+                <div class="faq-prices-box">
+                    <div class="faq-prices-title">Услуги и цены:</div>
+                    <div class="faq-price-item">Вход в фейм-лист: <span class="faq-price-val">50 зв</span></div>
+                    <div class="faq-price-item">Галочка (верификация): <span class="faq-price-val">50 зв</span></div>
+                    <div class="faq-price-item">Закреп профиля: <span class="faq-price-val">50 зв</span></div>
+                    <div class="faq-note">Оплата только через Telegram</div>
+                    <div class="faq-request-box"><div class="faq-request-title">Хочешь попасть в<br>фейм-лист?</div><a href="https://t.me/vkwebint" class="faq-request-btn" target="_blank"><svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2" fill="none"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg> Отправить заявку</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="settings-modal">
+        <div class="modal-content">
+            <div class="modal-header"><h3><svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2" fill="none"><line x1="4" y1="21" x2="4" y2="14"></line><line x1="4" y1="10" x2="4" y2="3"></line><line x1="12" y1="21" x2="12" y2="12"></line><line x1="12" y1="8" x2="12" y2="3"></line><line x1="20" y1="21" x2="20" y2="16"></line><line x1="20" y1="12" x2="20" y2="3"></line><line x1="1" y1="14" x2="7" y2="14"></line><line x1="9" y1="8" x2="15" y2="8"></line><line x1="17" y1="16" x2="23" y2="16"></line></svg> Настройки</h3><button class="icon-btn close-modal" onclick="cM('settings-modal')"><svg viewBox="0 0 24 24" width="22" height="22" stroke="currentColor" stroke-width="2" fill="none"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg></button></div>
+            <div class="settings-tabs"><button class="tab-btn" onclick="oT('theme')">Тема</button><button class="tab-btn" onclick="oT('bg')">Фон</button><button class="tab-btn active" onclick="oT('neon')">Неон</button><button class="tab-btn" onclick="oT('effects')">Эффекты</button></div>
+            <div id="tab-theme" class="tab-content">
+                <h4 class="tab-title">Тема оформления</h4>
+                <div class="theme-grid">
+                    <div class="theme-card active" onclick="aT('#090909', '#141414', this)"><div class="theme-preview" style="background:#141414;"></div><div class="theme-name">Темная</div></div>
+                    <div class="theme-card" onclick="aT('#000000', '#0a0a0a', this)"><div class="theme-preview" style="background:#000;"></div><div class="theme-name">Черная</div></div>
+                    <div class="theme-card" onclick="aT('#1a0505', '#2a0808', this)"><div class="theme-preview" style="background:linear-gradient(to bottom, #2a0808, #110000);"></div><div class="theme-name">Красная</div></div>
+                    <div class="theme-card" onclick="aT('linear-gradient(to bottom, #1a0505, #000)', '#110202', this)"><div class="theme-preview" style="background:linear-gradient(to bottom, #1a0505, #000);"></div><div class="theme-name">Красно-черная</div></div>
+                    <div class="theme-card" onclick="aT('linear-gradient(to bottom, #1a0505, #111)', '#1a1a1a', this)"><div class="theme-preview" style="background:linear-gradient(to bottom, #1a0505, #1a1a1a);"></div><div class="theme-name">Красно-серая</div></div>
+                    <div class="theme-card" onclick="aT('#12051a', '#1a0826', this)"><div class="theme-preview" style="background:#1a0826;"></div><div class="theme-name">Фиолетовая</div></div>
+                    <div class="theme-card" onclick="aT('#050a1a', '#0a122a', this)"><div class="theme-preview" style="background:#0a122a;"></div><div class="theme-name">Синяя</div></div>
+                    <div class="theme-card" onclick="aT('#051a0a', '#0a2a12', this)"><div class="theme-preview" style="background:#0a2a12;"></div><div class="theme-name">Зеленая</div></div>
+                    <div class="theme-card" onclick="aT('#1a0f05', '#2a1708', this)"><div class="theme-preview" style="background:#2a1708;"></div><div class="theme-name">Оранжевая</div></div>
+                    <div class="theme-card" onclick="aT('#1a0515', '#2a0822', this)"><div class="theme-preview" style="background:#2a0822;"></div><div class="theme-name">Розовая</div></div>
+                </div>
+            </div>
+            <div id="tab-bg" class="tab-content"><h4 class="tab-title">Фон главной страницы</h4><label style="display: flex; justify-content: center; align-items: center; gap: 10px; width: 100%; padding: 15px; background: #1a1a1a; border: 1px dashed #555; border-radius: 12px; cursor: pointer; color: #ccc;"><svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2" fill="none"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><circle cx="8.5" cy="8.5" r="1.5"></circle><polyline points="21 15 16 10 5 21"></polyline></svg> Выбрать изображение<input type="file" style="display: none;" accept="image/*" id="bg-upload"></label></div>
+            <div id="tab-neon" class="tab-content active">
+                <h4 class="tab-title">Настройки неона</h4><div class="setting-group"><label>Цвет неона:</label><input type="color" id="neon-color-picker" class="color-picker" value="#a200ff"></div><div class="range-wrapper"><div class="range-info"><label style="margin:0;">Интенсивность (1-100):</label></div><input type="range" id="neon-intensity" min="1" max="100" value="50" oninput="document.getElementById('int-label').innerText = this.value + '%'"><span class="range-val" id="int-label">50%</span></div><div class="range-wrapper"><div class="range-info"><label style="margin:0;">Скорость анимации:</label></div><input type="range" id="neon-speed" min="1" max="3" value="2" step="1" oninput="uSL(this.value)"><span class="range-val" id="speed-label">Средняя</span></div><button class="btn-primary" onclick="aCN()"><svg viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" stroke-width="2.5" fill="none"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg> Применить неон</button>
+            </div>
+            <div id="tab-effects" class="tab-content">
+                <h4 class="tab-title">Эффекты</h4><div class="switch-container"><div class="switch-text"><h4>❄️ Снег</h4><p>Падающий снег на всём сайте</p></div><label class="switch"><input type="checkbox" id="snow-toggle" onchange="tSE()" checked><span class="slider"></span></label></div><div class="switch-container"><div class="switch-text"><h4>🎨 Эффект переливания</h4><p>Анимированное переливание неона</p></div><label class="switch"><input type="checkbox" id="rainbow-toggle" onchange="tRE()"><span class="slider"></span></label></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="profile-modal">
+        <div class="modal-content">
+            <div class="profile-header-bg">
+                <button class="icon-btn profile-close" onclick="cM('profile-modal')"><svg viewBox="0 0 24 24" width="20" height="20" stroke="#fff" stroke-width="2" fill="none"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg></button>
+                <img src="" alt="" class="profile-avatar" id="pm-avatar">
+                <div class="profile-name" id="pm-name"></div>
+                <div class="profile-username" id="pm-tg"></div>
+                <div class="profile-tags" id="pm-tags"></div>
+            </div>
+            <div class="profile-actions">
+                <a href="#" class="profile-btn" id="pm-msg-btn" target="_blank"><svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2" fill="none"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg> Написать в ЛС</a>
+                <a href="#" class="profile-btn" id="pm-channel-btn" target="_blank" style="display:none;"><svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2" fill="none"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg> Основной канал</a>
+                <button class="profile-btn profile-btn-share" onclick="shareProfile()"><svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2" fill="none"><circle cx="18" cy="5" r="3"></circle><circle cx="6" cy="12" r="3"></circle><circle cx="18" cy="19" r="3"></circle><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line></svg> Поделиться</button>
+            </div>
+            <div class="profile-section"><h4>Описание</h4><p id="pm-desc"></p></div>
+            <div class="profile-section"><h4>Детали</h4><p id="pm-details"></p></div>
+            <div class="profile-section"><h4>Навыки и специализация</h4><p id="pm-skills"></p></div>
+            <div class="profile-section">
+                <h4>Статистика</h4>
+                <table class="profile-stats">
+                    <tr><td>Статус:</td><td id="ps-status"></td></tr>
+                    <tr><td>Верификация:</td><td id="ps-verified"></td></tr>
+                    <tr><td>Закреп:</td><td id="ps-pinned"></td></tr>
+                    <tr><td>Дата регистрации:</td><td id="ps-regdate"></td></tr>
+                    <tr><td>Активность:</td><td id="ps-activity"></td></tr>
+                    <tr><td>ID:</td><td id="ps-id"></td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <!-- СКРЫТАЯ АДМИН ПАНЕЛЬ -->
+    <div class="modal" id="admin-modal">
+        <div class="modal-content" style="max-width:600px;">
+            <div class="modal-header"><h3>Админ-панель</h3><button class="icon-btn close-modal" onclick="cM('admin-modal')"><svg viewBox="0 0 24 24" width="22" height="22" stroke="currentColor" stroke-width="2" fill="none"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg></button></div>
+            <p style="font-size:12px;color:#888;margin-bottom:15px;">Внесите изменения и нажмите "Экспорт кода", чтобы скопировать новые данные и вставить их в файл data.js на GitHub.</p>
+            <textarea id="admin-export" style="width:100%;height:150px;background:#000;color:#0f0;border:1px solid #333;border-radius:8px;padding:10px;font-family:monospace;font-size:12px;margin-bottom:15px;display:none;"></textarea>
+            <button class="btn-primary" onclick="exportData()" style="margin-bottom:20px;background:#2ed573;border-color:#2ed573;">Экспорт кода</button>
+            <div id="admin-users-list"></div>
+        </div>
+    </div>
+
+    <script src="js/data.js"></script>
+    <script src="js/main.min.js"></script>
+</body>
+</html>
