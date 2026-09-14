@@ -16,6 +16,22 @@ window.usersData = [
         "activity": "Постоянная"
     },
     {
+        "id": 5,
+        "name": "диспрозия",
+        "role": "Осинтеры",
+        "desc": "пришел в сферу в 2022, начал увлекаться Osint с 2023-2024, имел 3 проекта от 100-200 сабов",
+        "fullDesc": "пришел в сферу в 2022, начал увлекаться Osint с 2023-2024, имел 3 проекта от 100-200 сабов",
+        "tg": "@vkwebint",
+        "channel": "",
+        "img": "https://i.postimg.cc/CL93F3Sv/disprozia.jpg",
+        "verified": true,
+        "pinned": true,
+        "isScam": false,
+        "skills": "Осинтеры",
+        "regDate": "13 сентября 2026 г.",
+        "activity": "Постоянная"
+    },
+    {
         "id": 2,
         "name": "Six Seven",
         "role": "Кодеры",
@@ -64,22 +80,6 @@ window.usersData = [
         "activity": "Низкая"
     },
     {
-        "id": 5,
-        "name": "диспрозия",
-        "role": "Осинтеры",
-        "desc": "пришел в сферу в 2022, начал увлекаться Osint с 2023-2024, имел 3 проекта от 100-200 сабов",
-        "fullDesc": "пришел в сферу в 2022, начал увлекаться Osint с 2023-2024, имел 3 проекта от 100-200 сабов",
-        "tg": "@vkwebint",
-        "channel": "",
-        "img": "https://i.postimg.cc/CL93F3Sv/disprozia.jpg",
-        "verified": true,
-        "pinned": true,
-        "isScam": false,
-        "skills": "Осинтеры",
-        "regDate": "13 сентября 2026 г.",
-        "activity": "Постоянная"
-    },
-    {
         "id": 6,
         "name": "Виолетта маниачка",
         "role": "Средний фейм",
@@ -93,6 +93,22 @@ window.usersData = [
         "isScam": false,
         "skills": "Средний фейм",
         "regDate": "13 сентября 2026 г.",
+        "activity": "Постоянная"
+    },
+    {
+        "id": 7,
+        "name": "shaydez AFK",
+        "role": "Осинтеры",
+        "desc": "в осинт пришел в 24году, более 100 удачных работ",
+        "fullDesc": "в осинт пришел в 24году, более 100 удачных работ",
+        "tg": "@whyshaydez",
+        "channel": "",
+        "img": "https://i.postimg.cc/wB8N06JC/IMG-20260914-165516-838.jpg",
+        "verified": false,
+        "pinned": false,
+        "isScam": false,
+        "skills": "Осинтеры",
+        "regDate": "14 сентября 2026 г.",
         "activity": "Постоянная"
     }
 ];
