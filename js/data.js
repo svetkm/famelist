@@ -78,5 +78,21 @@ window.usersData = [
         "skills": "Осинтеры",
         "regDate": "13 сентября 2026 г.",
         "activity": "Постоянная"
+    },
+    {
+        "id": 6,
+        "name": "Виолетта маниачка",
+        "role": "Средний фейм",
+        "desc": "Привет, я Deanoner, владелец проекта Cyber Scout. Проект появился в 2017 году, сейчас занимаюсь OSINT (сбор и анализ открытых данных).",
+        "fullDesc": "Привет, я Deanoner, владелец проекта Cyber Scout. Проект появился в 2017 году, сейчас занимаюсь OSINT (сбор и анализ открытых данных).",
+        "tg": "@cmcnx",
+        "channel": "",
+        "img": "https://i.postimg.cc/DZDKfFJ1/IMG-20260914-114551-818.jpg",
+        "verified": false,
+        "pinned": false,
+        "isScam": false,
+        "skills": "Средний фейм",
+        "regDate": "13 сентября 2026 г.",
+        "activity": "Постоянная"
     }
 ];
