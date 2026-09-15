@@ -65,11 +65,11 @@ window.usersData = [
     },
     {
         "id": 4,
-        "name": "каиро revs 62+",
+        "name": "eclipseonline",
         "role": "Скам",
         "desc": "",
-        "fullDesc": "Д",
-        "tg": "@dev_kairo",
+        "fullDesc": "тварь урод и скамер тупой",
+        "tg": "@media_eclipseonline",
         "channel": "",
         "img": "https://i.postimg.cc/brHDGBzT/pidoras.jpg",
         "verified": false,
@@ -81,7 +81,7 @@ window.usersData = [
     },
     {
         "id": 6,
-        "name": "Виолетта маниачка",
+        "name": "Виолетта маньячка",
         "role": "Средний фейм",
         "desc": "Привет, я Deanoner, владелец проекта Cyber Scout. Проект появился в 2017 году, сейчас занимаюсь OSINT (сбор и анализ открытых данных).",
         "fullDesc": "Привет, я Deanoner, владелец проекта Cyber Scout. Проект появился в 2017 году, сейчас занимаюсь OSINT (сбор и анализ открытых данных).",
@@ -111,4 +111,4 @@ window.usersData = [
         "regDate": "14 сентября 2026 г.",
         "activity": "Постоянная"
     }
-];
+];];
